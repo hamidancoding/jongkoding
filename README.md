@@ -1,2 +1,1 @@
 # jongkoding
-latihan di jongkoding
