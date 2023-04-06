@@ -1,0 +1,160 @@
+body {
+  background-color: #ecf0f1;
+}
+
+.wrapper {
+}
+
+.container {
+  /* background: yellow; */
+  width: 1000px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar {
+  width: 300px;
+  /* background: red; */
+  float: left;
+}
+
+.content {
+  width: 700px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#logo {
+  float: left;
+  width: 20px;
+  height: auto;
+  padding: 20px;
+}
+
+#logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+#menu {
+  /* background-color: #34495e; */
+  padding-top: 10px;
+  padding-bottom: 60px;
+  float: right;
+  width: 750px;
+}
+
+#menu li {
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#menu li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: #05508e;
+}
+
+.blog-content {
+  float: left;
+  max-width: 200px;
+  margin: 20px 10px 20px 20px;
+}
+
+.blog-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.recent-article {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.recent-article ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.recent-article ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.recent-article ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.recent-article ul li a:hover {
+  color: #2543a5;
+}
+
+.blog-single {
+  float: left;
+  max-width: 700px;
+  margin: 20px 10px 20px 20px;
+}
+
+.blog-single img {
+  max-width: 700px;
+  max-height: 400px;
+}
+
+.next-article {
+  margin-top: 50px;
+  font-size: 20px;
+  float: right;
+}
+.next-article a {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.previous-article {
+  margin-top: 50px;
+  font-size: 20px;
+  float: left;
+}
+
+.previous-article a {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
